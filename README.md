@@ -32,6 +32,10 @@ sudo apt-get install -y \
     gstreamer1.0-plugins-bad \
     gstreamer1.0-nice
 ```
+Install boost and its dependencies by running:
+```bash
+sudo apt-get install libboost-all-dev
+```
 
 ### Getting Started
 1. Clone the Repository:
@@ -64,6 +68,7 @@ To serve the HTML interface, run:
    python3 -m http.server 9999
    ```
 
+Connect to the server using a compatible WebRTC client or browser-based application to begin streaming.
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
