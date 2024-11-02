@@ -58,8 +58,7 @@ To start the live streaming server, run:
 ```bash
 ./webrtc_server
 ```
-Connect to the server using a compatible WebRTC client or browser-based application to begin streaming.
-4. To serve the HTML interface, run:
+To serve the HTML interface, run:
    ```bash
    cd ..
    python3 -m http.server 9999
