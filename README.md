@@ -1,11 +1,6 @@
 # LiveStreamingPipeline
 A live streaming pipeline built in C++ leveraging Boost.Beast for WebSocket communication and WebRTC for real-time video streaming.
 
-# LiveStreamingPipeline
-
-## Overview
-LiveStreamingPipeline is a robust and efficient live streaming solution developed in C++. This project combines Boost.Beast for WebSocket communication and WebRTC for real-time video transmission, making it suitable for applications such as video conferencing, online streaming, and interactive broadcasting.
-
 ![Interface Screenshot](/interface.png)  <!-- Replace with the actual path to your interface image -->
 
 ## Key Features
