@@ -56,15 +56,18 @@ sudo apt-get install -y \
 ## Usage
 To start the live streaming server, run:
 ```bash
-./bin/live_stream_server
+./webrtc_server
 ```
 Connect to the server using a compatible WebRTC client or browser-based application to begin streaming.
+4. To serve the HTML interface, run:
+   ```bash
+   cd ..
+   python3 -m http.server 9999
+   ```
+
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 - [Boost.Beast](https://www.boost.org/doc/libs/release/libs/beast/doc/html/index.html)
